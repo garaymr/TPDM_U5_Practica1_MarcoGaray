@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Soccer Móvil 2019!"
+        android:textSize="40dp"
+        android:textAlignment="center"
+        android:textColor="#000"
+        />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Se recibe un mensaje con las letras MX - con el nombre de tu equipo de la liga MX en mayúsculas para saber toda la información de él!"
+        android:textAlignment="center"
+        android:textColor="#000"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="También hay equipos europeos! Envía EU- seguido de tu equipo favorito!"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:layout_marginTop="20dp"
+        />
+
+</LinearLayout>
